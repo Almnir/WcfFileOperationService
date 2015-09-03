@@ -5,6 +5,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfFileOperationService", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfFileOperationControl", "WcfFileOperationControl\WcfFileOperationControl.csproj", "{095E9281-4365-43B5-A97B-A51B7424971E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfHostConsole", "WcfHostConsole\WcfHostConsole.csproj", "{724FA636-D342-44D3-97E0-A3C07D634BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfFileService", "WcfFileService\WcfFileService.csproj", "{45D0FDEA-9C65-474A-919F-C6D5A66F66EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfFileServiceConsoleHost", "WcfFileServiceConsoleHost\WcfFileServiceConsoleHost.csproj", "{4D7ABA73-0776-44FC-936A-1C7792F652C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfFileServiceClient", "WcfFileServiceClient\WcfFileServiceClient.csproj", "{1116C6AE-93B7-409C-97E8-01872268B324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfFileServiceContracts", "WcfFileServiceContracts\WcfFileServiceContracts.csproj", "{01B34E4B-36A5-4345-AED6-C38004B1EB90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +29,26 @@ Global
 		{095E9281-4365-43B5-A97B-A51B7424971E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{095E9281-4365-43B5-A97B-A51B7424971E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{095E9281-4365-43B5-A97B-A51B7424971E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724FA636-D342-44D3-97E0-A3C07D634BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724FA636-D342-44D3-97E0-A3C07D634BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724FA636-D342-44D3-97E0-A3C07D634BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724FA636-D342-44D3-97E0-A3C07D634BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D0FDEA-9C65-474A-919F-C6D5A66F66EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D0FDEA-9C65-474A-919F-C6D5A66F66EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D0FDEA-9C65-474A-919F-C6D5A66F66EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D0FDEA-9C65-474A-919F-C6D5A66F66EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7ABA73-0776-44FC-936A-1C7792F652C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7ABA73-0776-44FC-936A-1C7792F652C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7ABA73-0776-44FC-936A-1C7792F652C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7ABA73-0776-44FC-936A-1C7792F652C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1116C6AE-93B7-409C-97E8-01872268B324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1116C6AE-93B7-409C-97E8-01872268B324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1116C6AE-93B7-409C-97E8-01872268B324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1116C6AE-93B7-409C-97E8-01872268B324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B34E4B-36A5-4345-AED6-C38004B1EB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B34E4B-36A5-4345-AED6-C38004B1EB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B34E4B-36A5-4345-AED6-C38004B1EB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B34E4B-36A5-4345-AED6-C38004B1EB90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

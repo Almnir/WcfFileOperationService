@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace WcfFileOperationService
 {
@@ -24,6 +25,6 @@ namespace WcfFileOperationService
         [FaultContract(typeof(UploadFault))]
         IAsyncResult BeginUploading(DataInfo dataInfo, AsyncCallback callback, object state);
         UploadResult EndUploading(IAsyncResult asyncResult);
-
+        public async Task<UploadResult> UploadingAsync(DataInfo dataInfo);
     }
 }

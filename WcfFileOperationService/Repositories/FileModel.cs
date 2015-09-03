@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WcfFileOperationService.Repositories
 {
-    class FileModel
+    public class FileModel
     {
         public Guid Id { get; set; }
         public string FileName { get; set; }
